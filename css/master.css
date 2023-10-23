@@ -1,0 +1,333 @@
+@font-face {
+  font-family: tilt;
+  src: url(../font/google-font/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+}
+li {
+  list-style-type: none;
+}
+
+.head-top {
+  background-image: url(../img/header-background-scaled.jpg);
+  background-size: cover;
+}
+
+.head-nav {
+  background-color: #45152A;
+  height: 50px;
+}
+@media screen and (max-width: 768px) {
+  .head-nav {
+    height: 100px;
+  }
+}
+.head-nav > ul li {
+  cursor: pointer;
+  font-family: tilt;
+  color: white;
+  transition: 0.4s;
+}
+.head-nav > ul li:hover {
+  color: #FF6365;
+}
+.head-nav > ul li:last-child i {
+  font-size: 38px;
+}
+
+.head-fig {
+  overflow: hidden;
+}
+.head-fig > figure {
+  height: 550px;
+}
+@media screen and (max-width: 768px) {
+  .head-fig > figure {
+    height: 350px;
+  }
+}
+.head-fig > figure > img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.head-fig > div {
+  height: 550px;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .head-fig > div {
+    height: 350px;
+  }
+}
+.head-fig > div > p {
+  width: 100%;
+  height: 30px;
+  font-family: tilt;
+}
+.head-fig > div > p:nth-of-type(1) {
+  font-size: 2vw;
+}
+.head-fig > div > p:nth-of-type(2) {
+  font-size: 6vw;
+  text-wrap: nowrap;
+  text-align: start;
+}
+.head-fig > div a {
+  width: 250px;
+  margin: auto;
+  height: 55px;
+  background-color: #7f0f41;
+  letter-spacing: 1px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .head-fig > div a {
+    width: 400px;
+  }
+}
+.head-fig > div a:hover {
+  background-color: #FF6365;
+}
+
+.wine-buttles {
+  background-image: url(../img/calltoaction-background.jpg);
+  background-position: center;
+  width: 380px;
+  height: 350px;
+  border-radius: 10px 10px 0 0;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .wine-buttles {
+    height: 200px;
+  }
+}
+.wine-buttles > figcaption {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #7F0F41;
+}
+.wine-buttles > img {
+  width: 40%;
+  height: 60%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.wine-buttles > a {
+  height: 40px;
+  bottom: -35px;
+  background-color: #7f0f41;
+  letter-spacing: 1px;
+  transition: 0.4s;
+}
+.wine-buttles > a:hover {
+  background-color: #FF6365;
+}
+
+.Selected-wines {
+  flex-direction: column;
+}
+.Selected-wines > h5 {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 2vw;
+}
+.Selected-wines > h4 {
+  color: #7F0F41;
+  font-size: 4vw;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.Selected-wines > div > figure {
+  width: 300px;
+  height: 320px;
+}
+.Selected-wines > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Selected-wines > div > figure > div {
+  flex-direction: column;
+}
+.Selected-wines > div > figure > div > p:nth-of-type(2) {
+  color: rgb(252, 60, 60);
+  font-size: 14px;
+}
+.Selected-wines > div > figure > div > h3 {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.Selected-wines > div > figure > div > h3:hover {
+  color: #FF6365;
+}
+
+.savings {
+  flex-direction: column;
+  padding-top: 200px;
+}
+.savings > span {
+  letter-spacing: 1px;
+}
+.savings > h3 {
+  color: #45152A;
+  font-size: 5vw;
+}
+.savings > p {
+  color: rgb(60, 61, 61);
+  font-size: 1.5vw;
+  width: 800px;
+}
+@media screen and (max-width: 992px) {
+  .savings > p {
+    width: 450px;
+  }
+}
+
+.photo-saving {
+  background-image: url(../img/subscribe-background-scaled.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+  flex-direction: column;
+}
+.photo-saving > input {
+  height: 60px;
+}
+.photo-saving > a {
+  font-family: tilt;
+  height: 60px;
+  background-color: #7f0f41;
+  letter-spacing: 1px;
+  transition: 0.4s;
+  font-size: 25px;
+}
+.photo-saving > a:hover {
+  background-color: #FF6365;
+}
+
+.v-totable {
+  background-image: url(../img/vineyard-tours-background-scaled.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.v-totable > * {
+  font-family: tilt;
+}
+.v-totable > div {
+  flex-direction: column;
+}
+.v-totable > div > p:nth-of-type(1) {
+  letter-spacing: 2px;
+}
+.v-totable > div > p:nth-of-type(2) {
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+}
+.v-totable > div h4 {
+  font-size: 5vw;
+}
+.v-totable > div a {
+  letter-spacing: 1px;
+  background-color: #7f0f41;
+  transition: 0.4s;
+}
+.v-totable > div a:hover {
+  background-color: #FF6365;
+}
+
+.news > div:nth-of-type(1) {
+  flex-direction: column;
+  font-family: tilt;
+}
+.news > div:nth-of-type(1) h5 {
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.news > div:nth-of-type(1) > h4 {
+  font-size: 60px;
+  color: #45152A;
+}
+.news > div:nth-last-of-type(2) > figure {
+  width: 380px;
+  height: 280px;
+}
+.news > div:nth-last-of-type(2) > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.news > div:nth-last-of-type(2) > figure > div {
+  flex-direction: column;
+}
+.news > div:nth-last-of-type(2) > figure > div > h3 {
+  transition: 0.4s;
+  cursor: pointer;
+}
+.news > div:nth-last-of-type(2) > figure > div > h3:hover {
+  color: #FF6365;
+}
+.news > div:nth-of-type(3) > a {
+  letter-spacing: 1px;
+  background-color: #7f0f41;
+  transition: 0.4s;
+}
+.news > div:nth-of-type(3) > a:hover {
+  background-color: #FF6365;
+}
+
+.footer {
+  background-image: url(../img/footer-background-scaled.jpg);
+  background-size: cover;
+  min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  .footer > div:nth-of-type(2) {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer > div:nth-of-type(2) {
+    flex-direction: row;
+  }
+}
+
+.list1, .list2 {
+  flex-direction: column;
+}
+.list1 > li, .list2 > li {
+  cursor: pointer;
+  color: white;
+  letter-spacing: 0.5px;
+  transition: 0.4s;
+}
+.list1 > li:hover, .list2 > li:hover {
+  color: #FF6365;
+}
+
+.sub-save {
+  flex-direction: column;
+  font-family: tilt;
+}
+.sub-save > p {
+  font-size: 40px;
+}
+.sub-save > input {
+  height: 40px;
+}
+.sub-save > a {
+  background-color: #240d17;
+  letter-spacing: 1px;
+  height: 40px;
+  transition: 0.4s;
+}
+.sub-save > a:hover {
+  background-color: #FF6365;
+}
+
+input {
+  border-radius: 5px;
+}/*# sourceMappingURL=master.css.map */
